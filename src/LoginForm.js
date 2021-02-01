@@ -10,6 +10,8 @@ const { Link } = Anchor;
 
 
 
+
+
 class LoginForm extends React.Component {
 
   constructor(props){
@@ -90,6 +92,8 @@ class LoginForm extends React.Component {
     }
   }
 
+
+
   render(){
 
     let url = 'www.google.com';
@@ -126,7 +130,7 @@ class LoginForm extends React.Component {
             <SubmitButton  
                 text='Login'
                 disabled={this.state.buttonDisabled} 
-                onClick={() => this.doLogin() }
+                onClick={() => this.doLogin }
             />
 
             <a href="{url}">

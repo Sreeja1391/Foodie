@@ -1,0 +1,37 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    line-height: 1.5rem;
+    margin-top: -5rem;
+  }
+
+
+
+
+  #food-name{
+      float: left;
+  }
+
+  #food-prize{
+      float: right;
+  }
+  span{
+      font-size:large;
+  }
+
+#food-description{
+    font-size: x-small;
+    width: 100%;
+}
+
+#adjust{
+    margin-left: 16rem;
+}
+
+#food{
+    
+    position: relative;
+}

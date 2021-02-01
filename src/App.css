@@ -37,6 +37,7 @@ a{
 .dash_icon{
   display: flex;
   align-items: center;
+  width: 100rem;
 }
 
 .container {
@@ -46,7 +47,7 @@ a{
   flex-direction: column;
   align-items: center;
   /*background-color: #282c34;*/
-  background: #ffffff;;
+  background: #ffffff;
 }
 
 .loginForm {
@@ -95,3 +96,85 @@ a{
  cursor: pointer;
  transition-duration: 0.4s;
 }
+
+h2{
+  text-align: center;
+}
+
+.contact{
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*background-color: #282c34;*/
+  /* background: #ffffff; */
+  margin-left: 14rem;
+  margin-top: -4.5rem;
+}
+
+/* textarea{
+  width: 100%;
+  max-width: 100%;
+} */
+
+#text{
+  width:60rem ;
+  height: 5rem;
+  
+}
+
+#cont{
+  width:60rem;
+  height: 1.5rem;
+}
+
+#contact-btn{
+  background-color:#008CBA;
+  border: none;
+  color: white;
+  width:60rem;
+  height:2rem;
+  text-align: center;
+  cursor: pointer;
+  font-size: large;
+}
+
+#appbar{
+  background-color:#008CBA;
+}
+
+#logBtn{
+  margin-left: 72.5rem;
+  background-color:#fff;
+  color: #000;
+  cursor: pointer;
+  border-radius: 0.5em;
+  width: 7rem;
+  height: 2rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#dish-btn{
+  margin-top: 100px;
+  background-color:#fff;
+  color: #000;
+  cursor: pointer;
+  border-radius: 0.5em;
+  width:60rem;
+  height:2rem;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 7rem;
+}
+
+.aboutPage{
+  margin-left: 16rem;
+  overflow: hidden;
+  margin-top: -4rem;
+}
+
+#aboutText{
+  margin-left: -2rem;
+}
+

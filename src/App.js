@@ -5,8 +5,15 @@ import  LoginForm   from   './LoginForm';
 import  InputField  from   './InputField';
 import SubmitButton from   './SubmitButton';
 import Dashboard from './Dashboard';
-import ContactUs from './ContactUs';
+import Contact from './Contact';
+import AddDish from './AddDish';
+import AddComment from './AddComment';
+import Home from './Home';
+import RestaurantNav from './RestaurantNav';
+import About from './About';
 import './App.css';
+import { BrowserRouter as Router, Switch,Route} from 'react-router-dom';
+import { Restaurant } from '@material-ui/icons';
 
 
 class App extends React.Component {
@@ -107,13 +114,27 @@ class App extends React.Component {
 
 
     return (
+      <Router>
       <div className="app">
+
+      <Dashboard /> 
+        <Switch>
           
-          <div className='container'>
-           <LoginForm />    
-             {/* <Dashboard /> */}
-          </div>
+          
+           {/* <LoginForm />     */}
+             
+             {/* {/* <Route exact path="/" component={Dashboard}/> */}
+             <Route exact path="/" component={RestaurantNav}/>
+             <Route exact path="/about" component={About}/>
+             <Route exact path="/contactUs" component={Contact} />
+             <Route exact path="/addDish" component={AddDish} />
+             {/* <RestaurantNav /> */}
+             {/* <Contact /> */}
+             {/* <AddDish /> */}
+             {/* <AddComment /> */}
+        </Switch>     
       </div>
+      </Router>
     );
 }
 }

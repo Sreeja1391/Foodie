@@ -1,0 +1,5 @@
+{
+    "dishes":[{"id":"1","dishName":"Uthappizza","price":"150","description":"sample food description"},
+    {"id":"2","dishName":"Vadonut","price":"70","description":"sample food description"},
+{"id":"3","dishName":"Zucchipakoda","price":"250","description":"sample food description"}]
+}
